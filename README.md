@@ -29,9 +29,17 @@ La versión 2.0 incorpora mejoras significativas enfocadas en el despliegue y la
 * **Integración Directa con Pckgr:** Permite la integración y la preparación directa de paquetes para despliegues masivos.
 * **Barra de Progreso Gráfica:** En la sección **'Actualizaciones'**, se ha añadido una barra de progreso visual para ofrecer una retroalimentación clara e inmediata sobre el estado de la tarea.
 
----
 
-## ℹ️ Información General y Propósito
+## 🛠️ Tecnologías Utilizadas
+
+| Tecnología | Propósito |
+| :--- | :--- |
+| **Python** | Lenguaje de programación principal. |
+| **Tkinter/ttkbootstrap** | Creación de la Interfaz Gráfica de Usuario (GUI). |
+| **`os` & `glob`** | Manejo del sistema de archivos, directorios y obtención de metadatos (fechas de modificación). |
+| **`datetime`** | Formateo y gestión de las fechas de modificación. |
+
+## 💡 Información General y Propósito
 
 | Detalle | Descripción |
 | :--- | :--- |
@@ -54,7 +62,7 @@ Este *software* está desarrollado para **uso libre**. Sin embargo, la responsab
 * Se agregó una barra de progreso visual en la pestaña 'Actualizaciones'.
 * Integración y soporte directo con la herramienta Pckgr para despliegues en Intune.
 
-## 🚀 Instalación Rápida
+## 🚀 Instalación y Uso
 
 ### Prerrequisitos
 - Python 3.8 o superior
@@ -63,7 +71,7 @@ Este *software* está desarrollado para **uso libre**. Sin embargo, la responsab
 
 ---
 
-## Instalación
+## 1. Instalación de Dependencias
 
 1.  **Clona el repositorio**
     ```bash
@@ -73,6 +81,16 @@ Este *software* está desarrollado para **uso libre**. Sin embargo, la responsab
 2.  **Instala dependencias**
     ```bash
     pip install -r requirements.txt
+    ```
+    ### 2. Ejecución
+
+Dado que solo utiliza librerías ya estan isntaladas.
+
+1.  Descarga o clona el archivo `csm.py` en tu máquina.
+2.  Ejecuta el *script* desde tu terminal:
+
+    ```bash
+    python csm.py
     ```
 
 ---

@@ -1,7 +1,7 @@
 
 <div align="center">
    
-# ⚙️ Utilidad de Mejora de Instalaciones Semi-Automáticas (v2.0)
+# ⚙️ Utilidad de Mejora de Instalaciones Semi-automaticas
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Windows](https://img.shields.io/badge/Platform-Windows%2010%2B-success)](https://www.microsoft.com/windows)

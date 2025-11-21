@@ -1,7 +1,7 @@
 
 <div align="center">
    
-# ⚙️ Utilidad de Mejorar de Instalaciones Semiautomáticas   
+# ⚙️ Check Software Minimum (CSM)  
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Windows](https://img.shields.io/badge/Platform-Windows%2010%2B-success)](https://www.microsoft.com/windows)
@@ -76,7 +76,7 @@ Este *software* está desarrollado para **uso libre**. Sin embargo, la responsab
 
 1.  **Clona el repositorio**
     ```bash
-    git clone https://github.com/LSCF84/CSM.git
+    git clone https://github.com/LSCF84/Check-Software-Minimum---CSM
     cd CSM
     ```
 2.  **Instala dependencias**
